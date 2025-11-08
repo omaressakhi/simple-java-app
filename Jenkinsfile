@@ -1,6 +1,5 @@
 pipeline {
-    agent {
-        label 'aws-agent'
+    agent any
     }
     stages {
         stage('Build Docker Image') {
